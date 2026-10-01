@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color:linen;
+  background-color: linen;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,9 +13,18 @@ body {
 main {
   text-align: center;
 }
+
 #datetime {
   background-color: white;
   width: 300px;
   margin: auto;
   border: 1px solid grey;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 8px;
 }
